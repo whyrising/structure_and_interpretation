@@ -5,10 +5,9 @@
   (:require [structure-and-interpretation.sum :refer :all])
   )
 
-; (println (fib 5))
+(println (fib 5))
 
-;(println (f 5))
-
+(println (f 5))
 (println (exp 2 3))
 (println (exp-fast 2 3))
 (println (sum-integers 2 3))
