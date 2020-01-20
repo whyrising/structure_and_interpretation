@@ -4,6 +4,7 @@
   (:require [structure-and-interpretation.exponentiation :refer :all])
   (:require [structure-and-interpretation.sum :refer :all])
   (:require [structure-and-interpretation.local-variables :refer :all])
+  (:require [structure-and-interpretation.fixed-points :refer :all])
   )
 
 (println (fib 5))
@@ -16,3 +17,4 @@
 (println (f1 3 2))
 (println (f-lambda 3 2))
 (println (f-let 3 2))
+(println (fixed-points h 1.0))
