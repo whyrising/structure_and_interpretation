@@ -6,6 +6,7 @@
   (:require [structure-and-interpretation.local-variables :refer :all])
   (:require [structure-and-interpretation.fixed-points :refer :all])
   (:require [structure-and-interpretation.rational-numbers :refer :all])
+  (:require [structure-and-interpretation.lists :refer :all])
   )
 
 (println (fib 5))
@@ -29,3 +30,5 @@
 (print-rat(add-rat
             (one-third)
             (one-third)))
+(println)
+(println (scale-tree (list 1 (list 2 (list 3 4) 5)) 10))
